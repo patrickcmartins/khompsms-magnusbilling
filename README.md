@@ -11,7 +11,7 @@ Tabela de conteúdos
    * [Tests](#testes)
    * [Configurações no MagnusBilling](#configuracoes-magnus-billing)
    * [Licença](#license)
-l  * [tecnologias](#tecnologias)
+   * [tecnologias](#tecnologias)
 <!--te-->
 
 ## Descrição
