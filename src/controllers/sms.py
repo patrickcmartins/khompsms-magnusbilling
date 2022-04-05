@@ -17,7 +17,7 @@ class SendSMS(Resource):
         mensagem = request.args.get("mensagem")
         
         #Change username and password to your own created in /etc/asterisk/manager.conf
-        client.login(username='magnus',secret='magnussolution')
+        client.login(username='magnus',secret='magnussolution',events='off')
         
         #Define the Send SMS action thru simple action
         action = SimpleAction(
@@ -28,12 +28,15 @@ class SendSMS(Resource):
             Message=mensagem
         )
         
+        def callback_response(reponse):
+            print(response)
+            
+        
         #Execute the action
-        future = client.send_action(action)
+        future = client.send_action(action,callback=callback_response)
         
         #Sleep 0.5s to get the output generated from asterisk ami
         time.sleep(0.5)    
-        # client.logoff()
         
         #Get the response 
         response = str(future.response)
@@ -43,6 +46,8 @@ class SendSMS(Resource):
             response = 'false'
         else:
             response = 'true' 
+            
+        client.logoff()
         
         return response, 200
     
