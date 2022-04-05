@@ -5,7 +5,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Descrição](#Descrição)
-   * [Configurações no MagnusBilling](#Configurações Magnus Billing)
+   * [Configurações no MagnusBilling](#configuracoes-magnus)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
@@ -15,7 +15,7 @@ Tabela de conteúdos
       * [Combo](#combo)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
-<!--te-->
+te
 
 ## Descrição
 
