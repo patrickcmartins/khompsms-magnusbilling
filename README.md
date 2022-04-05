@@ -5,7 +5,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Descrição](#Descrição)
-   * [Configurações no MagnusBilling](#configuracoes-magnus)
+   * [Configurações no MagnusBilling](#Configurações Magnus Billing)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
@@ -21,7 +21,7 @@ Tabela de conteúdos
 
 Script para o envio de SMS's manual e por campanha utilizando <a href="https://github.com/magnussolution/magnusbilling7">magnusbilling</a>
 
-## Configurações Magnus Billing (#configuracoes-magnus)
+## Configurações Magnus Billing 
 
 ## Como utilizar
 
