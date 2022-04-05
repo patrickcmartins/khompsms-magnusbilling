@@ -4,7 +4,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Descrição](#Descrição)
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -19,7 +19,7 @@ Tabela de conteúdos
 
 ## Descrição
 
-Script para o envio de SMS's utilizando <a href="https://github.com/magnussolution/magnusbilling7">magnusbilling</a>
+Script para o envio de SMS's manual e por campanha utilizando <a href="https://github.com/magnussolution/magnusbilling7">magnusbilling</a>
 
 ## Como utilizar
 
